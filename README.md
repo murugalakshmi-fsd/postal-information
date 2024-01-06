@@ -23,10 +23,8 @@ Adheres to a blue color scheme for consistency and readability.</p></li>
 Ensures a smooth and responsive user experience.</p></li>
 <li><h4>API Integration:</h4>
 <p>Utilizes the "https://api.postalpincode.in" API to retrieve location information based on the entered PIN code.
- 
-  preview:https://brilliant-figolla-403152.netlify.app
-
-
-Updates the UI with the fetched data to provide relevant details.</p></li>
+ Updates the UI with the fetched data to provide relevant details.</p></li>
 </ol>
+ preview:https://brilliant-figolla-403152.netlify.app
+
 
