@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postal Code Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Search By PIN Code</h1>
+        </div>
+    
+        <div class="form-group">
+            <label for="postalCode">Enter PIN Code:</label>
+            <input type="text" id="postalCode" class="form-control" placeholder="Enter PIN code">
+            <button class="btn btn-primary" onclick="searchByPINCode()">Search</button>
+        </div>
+    
+        <div id="loading" class="loading-message">Loading...</div>
+    
+        <div id="postalCodeInfo" class="postal-code-info">
+            <h5 class="location-info">Location Information</h5>
+            <div class="location-info">
+                <p><strong>PIN Code:</strong> <span id="code"></span></p>
+                <p><strong>Name:</strong><span id="name"></span></p>
+                <p><strong>Branch type:</strong> <span id="branchtype"></span></p>
+                <p><strong>Division</strong> <span id="division"></span></p>
+                <p><strong>District:</strong> <span id="district"></span></p>
+                <p><strong>State:</strong> <span id="state"></span></p>
+                <p><strong>Country:</strong> <span id="country"></span></p>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 Search By PIN Code</p>
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>

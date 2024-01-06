@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.loading-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
+
+.postal-code-info {
+    display: none;
+    margin-top: 20px;
+}
+
+.location-info {
+    margin-top: 20px;
+}
+
+.location-info p {
+    margin-bottom: 10px;
+}
+
+.location-info strong {
+    color: #007bff;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
